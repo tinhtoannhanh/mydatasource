@@ -142,7 +142,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\">INSTALL ON IOS NOW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"https://mobirise.com/\">INSTALL ON ANDROID NOW</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://itunes.apple.com/us/app/challenge-fast-math/id1294156972?mt=8\" target=\"_blank\">INSTALL ON IOS NOW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"https://play.google.com/store/apps/details?id=vn.techdev.fastmath\" target=\"_blank\">INSTALL ON ANDROID NOW</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -336,7 +336,7 @@
             }
           },
           "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Contact</b></span></font><br>Email: info@techdev.vn<br>Phone: +84898982599",
-          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Link</b></span></font><br>CH Play<br>App Store<br><br>",
+          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Link</b></span></font><br><a href=\"https://play.google.com/store/apps/details?id=vn.techdev.fastmath\" target=\"_blank\">CH Play</a><br><a href=\"https://itunes.apple.com/us/app/challenge-fast-math/id1294156972?mt=8\" target=\"_blank\">App Store</a><br><br>",
           "text3": "<br><br>",
           "_tags": [
             "Theme"
