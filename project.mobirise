@@ -1,35 +1,18 @@
 {
   "settings": {
-    "name": "Content",
+    "name": "Site-11-08_1506",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise3",
-      "title": "Mobirise 3",
-      "styling": {
-        "primaryColor": "#ed6019",
-        "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
-        "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
-        "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
-        "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true,
-        "isRtl": false
-      },
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {},
       "additionalSetColors": [
-        "#ed6019",
-        "#ff0401",
-        "#0050a9",
-        "#f7d911",
-        "#232323"
+        "#3df059",
+        "#fd0400"
       ]
     },
     "versionFirst": "4.3.2",
-    "uniqCompNum": 12,
+    "uniqCompNum": 9,
     "versionPublish": "4.3.2"
   },
   "pages": {
@@ -44,114 +27,292 @@
       },
       "components": [
         {
+          "_inherit": "header1",
           "_params": {
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true,
+            "showArrow": false,
             "contentAlign": "center",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/on-ch606-dollar-m-20171013181249-1280x853.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#a07e49",
+            "bgColor": "#4c6972",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.2"
           },
-          "title": "CHALLENGE FAST MATH GAME",
-          "text": "Normal but not easy. Play now!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://play.google.com/store/apps/details?id=vn.techdev.fastmath\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD FOR ANDROID</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR IOS</a>",
+          "title": "TĂNG DOANH THU <br>VỚI HỆ THỐNG CRM ĐƠN GIẢN",
+          "text": "",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ĐĂNG KÝ NGAY</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_anchor": "header1-1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-7",
           "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-size": "60px",
-              "font-family": "'Roboto Slab', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
+            "H1": {
+              "color": "#fd0400",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "36px"
+            },
+            "P": {
+              "color": "#000000"
             }
           }
         },
         {
+          "_params": {
+            "showHeader": false,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/on-ch606-dollar-m-20171013181249-1280x853.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "growing-chart",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "160",
+              "active": true,
+              "color": "#2969b0"
+            }
+          },
+          "title1": "KPI",
+          "caption1": "Xây dựng KPI đo lường theo từng loại hình kinh doanh: Bạn sẽ tự do điều chỉnh KPI theo nhu cầu.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-info\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/website-sieu-thi-600x450.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "150",
+              "color": "#2969b0"
+            }
+          },
+          "title2": "SỬ DỤNG TÊN MIỀN RIÊNG",
+          "caption2": "Hệ thống được xây dựng ngay trên tên miền của các bạn. Ví dụ: crm.abc.com.",
+          "button2": "<a data-app-btn=\"true\" href=\"http://techdev.vn/services/crm-System\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "setting",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "160",
+              "active": true,
+              "color": "#2969b0"
+            }
+          },
+          "title3": "CÀI ĐẶT",
+          "caption3": "Không cần cài đặt gì phức tạp: Bạn chỉ việc dùng trình duyệt web để sử dụng hệ thống",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-info\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/service-160x160.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "SỰ TƯƠNG THÍCH",
+          "caption4": "Tương thích với từng doanh nghiệp: Bạn kinh doanh lĩnh vực nào, sẽ sử dụng CRM lĩnh vực đó",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-info\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bill-cates-icon-24-7-185x175.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "clock",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "160",
+              "color": "#2969b0",
+              "active": true
+            }
+          },
+          "title5": "HỖ TRỢ 24/24",
+          "caption5": "Đội ngũ IT chuyên nghiệp, luôn sẵn sàng hỗ trợ bạn bất kỳ lúc nào về kỹ thuật.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-info\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-2",
           "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
+            ".mbr-section__col .mbr-header__text": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": true,
+            "outside": false,
+            "bgColor": "#252525"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screencapture-crm-demo-techdev-vn-dashboard-advice-customer-manage-1510142346621-1366x918.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
             },
-            ".navbar-caption": {
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-8"
+        },
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2969b0"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
               "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#ed6019!important"
             }
           },
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
+            "showButtons": true,
+            "sticky": false,
+            "collapsed": false,
             "transparent": true,
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "color": "#2969b0",
+            "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://itunes.apple.com/us/app/challenge-fast-math/id1294156972?mt=8\" target=\"_blank\">INSTALL ON IOS NOW</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"https://play.google.com/store/apps/details?id=vn.techdev.fastmath\" target=\"_blank\">INSTALL ON ANDROID NOW</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://crm-demo.techdev.vn/landpage/business_register\" target=\"_blank\">ABOUT US</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://techdev.vn/contacts\" target=\"_blank\">CONTACT<br></a></li>   ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://crm-demo.techdev.vn/landpage/business_register\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ĐĂNG KÝ NGAY</a></li> ",
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/150x150-128x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "http://techdev.vn/",
-              "title": "",
-              "linkInNewWindow": true
+              "link": "https://mobirise.com",
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -159,171 +320,31 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TECHDEV</a>",
+          "brand": "<a class=\"mbr-brand__name text-warning\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TECHDEV CORP</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-2"
-        },
-        {
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#000000",
-              "font-size": "16px"
-            },
-            ".iconbox": {
-              "background-color": "#f2f2f2",
-              "border-color": "#f2f2f2"
-            },
-            "H4": {
-              "font-size": "36px"
-            },
-            "P": {
-              "color": "#232323",
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
-            }
-          },
-          "_params": {
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": false,
-            "iconsBgColor": "#f2f2f2",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "save",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#0050a9"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ff0401"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "linkInNewWindow": false,
-              "name": "cash",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#f7d911"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "black",
-              "family": "et-line"
-            }
-          },
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "black",
-              "family": "et-line"
-            }
-          },
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "black",
-              "family": "et-line"
-            }
-          },
-          "title1": "4999",
-          "subtitle1": "Member",
-          "caption1": "There are over 4000 members experienced. <br>Will you be the next?",
-          "title2": "2",
-          "subtitle2": "Androi &amp; IOS",
-          "caption2": "Fast math are available in the two most popular app stores today, the Play &amp; App Store.",
-          "title3": "$0",
-          "subtitle3": "Free",
-          "caption3": "You do not have to pay any money to install the game.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features4",
-          "_anchor": "features4-6"
+          "_anchor": "menu-4"
         },
         {
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#ffffff",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/150x150-128x128.png",
-              "width": 128,
+              "src": "@PROJECT_PATH@/assets/images/150x150-150x150.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
               "active": true,
               "link": "",
               "alt": "",
@@ -331,27 +352,24 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "",
+              "link": "https://mobirise.com",
               "size": 0
             }
           },
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Contact</b></span></font><br>Email: info@techdev.vn<br>Phone: +84898982599",
-          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>Link</b></span></font><br><a href=\"https://play.google.com/store/apps/details?id=vn.techdev.fastmath\" target=\"_blank\">CH Play</a><br><a href=\"https://itunes.apple.com/us/app/challenge-fast-math/id1294156972?mt=8\" target=\"_blank\">App Store</a><br><br>",
-          "text3": "<br><br>",
+          "text1": "<strong>ADDRESS</strong><br>Số 10 đường 24 khu dân cư Him Lam<br>Bình Hưng, Bình Chánh, Hồ Chí Minh",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: info@techdev.vn<br>Hotline: &nbsp;0898982599<br>Or: 0898995298<br><br>",
+          "text3": "<p class=\"mbr-contacts__text\"><b>SERVICES</b></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-black\" href=\"http://techdev.vn/dich-vu-thiet-ke-website-chuyen-nghiep\" target=\"_blank\">Website</a></li><li><a class=\"mbr-contacts__link text-black\" href=\"http://techdev.vn/services/google-adwords\" target=\"_blank\">Google Adwords</a></li><li><a class=\"mbr-contacts__link text-black\" href=\"http://techdev.vn/dich-vu-email-marketing\" target=\"_blank\">Email Marketing</a></li><li><br></li></ul>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-9",
+          "_anchor": "contacts1-6",
           "_styles": {
-            "P": {
-              "color": "#2969b0"
+            "STRONG": {
+              "color": "#000000"
             },
-            "SPAN": {
-              "color": "#000000",
-              "font-size": "20px",
-              "font-family": "'Merriweather', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
+            "P": {
+              "color": "#000000"
             }
           }
         }
