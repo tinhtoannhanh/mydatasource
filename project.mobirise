@@ -302,7 +302,7 @@
             "color": "#2969b0",
             "hamburgerColor": "#ffffff"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://crm-demo.techdev.vn/landpage/business_register\" target=\"_blank\">ABOUT US</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://techdev.vn/contacts\" target=\"_blank\">CONTACT<br></a></li>   ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://techdev.vn/about-us\" target=\"_blank\">ABOUT US</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://techdev.vn/contacts\" target=\"_blank\">CONTACT<br></a></li>   ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://crm-demo.techdev.vn/landpage/business_register\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ĐĂNG KÝ NGAY</a></li> ",
           "logo": {
             "image": {
